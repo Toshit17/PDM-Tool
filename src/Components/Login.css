@@ -1,0 +1,117 @@
+/* Login.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container to hold the two halves */
+  .container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    background-color: black;
+    color: white;
+    position: relative;
+  }
+
+  .company-name{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2rem;
+    font-weight:bolder;
+    color: white;
+  }
+  .company-name .dot{
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    /* color: white; */
+    font-size: 1rem;
+    text-align: center;
+    line-height: -200px;
+    margin-left: 5px;
+  }
+  
+  /* Left half (image and text) */
+  .left-half {
+    flex: 1; /* Takes up half of the screen */
+    /* background-image: url('your-image-url.jpg'); Add your image URL here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .left-half h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Right half (login form) */
+  .right-half {
+    flex: 1; /* Takes up half of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px; /* Set a max width for the form */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  .login-heading{
+    color: black;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: black;
+  }
+  
+  .button {
+    margin-left: 30%;
+    width: 40%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  

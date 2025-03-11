@@ -1,0 +1,111 @@
+
+/* Global styles for the homepage */
+.home-container {
+    /* display: flex; */
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 250px;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+  
+  .sidebar-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  .sidebar-links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 50px;
+  }
+  
+  .sidebar-links li {
+    margin: 20px 0;
+  }
+  
+  .sidebar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    padding: 5px 0;
+  }
+  
+  .sidebar-links a:hover {
+    background-color: #444;
+    padding-left: 10px;
+  }
+  
+  /* Main Content Area */
+  .main-content {
+    margin-left: 300px;
+    padding: 20px;
+  }
+  
+  /* Navigation Header */
+  .navigation-header {
+    background-color: #292828;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    padding: 10px 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  /* Feature Box Styles */
+  .feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h3 {
+    color: #333;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  
+  .showNav{
+    margin-top: 30px;
+  }
+
+  .header{
+    margin-top: 30px;
+  }
